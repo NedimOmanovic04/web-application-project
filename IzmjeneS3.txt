@@ -1,0 +1,2 @@
+PoziviAjaxFetch.js:
+- I1: Promjena naziva modula sa "PoziviAjax" na "PoziviAjaxFetch" (linija 1)

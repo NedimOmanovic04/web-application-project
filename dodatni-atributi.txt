@@ -1,0 +1,2 @@
+Nisu dodani dodatni atributi u modele.
+Svi atributi su implementirani tačno prema specifikaciji iz zadatka.

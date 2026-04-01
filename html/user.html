@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korisnički profil - ScenarijPro</title>
+    <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="user-form">
+            <h1 class="form-title">Postavke korisničkog računa</h1>
+            <hr class="title-divider">
+            <p class="form-subtitle">Upravljajte vašim korisničkim računom, sigurnosnim postavkama i notifikacijama</p>
+
+            <section class="form-section">
+                <h2 class="section-title">Podaci o korisničkom računu</h2>
+                
+                <div class="form-group">
+                    <label for="full-name">Ime i prezime</label>
+                    <input type="text" id="full-name" placeholder="Nedim Omanović" value="Nedim Omanović">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email adresa</label>
+                    <input type="email" id="email" placeholder="nedim.omanovic@example.com" value="nedim.omanovic@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="items-per-page">Broj elemenata po stranici</label>
+                    <input type="number" id="items-per-page" min="1" max="100" placeholder="10">
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2 class="section-title">Sigurnosne postavke</h2>
+                
+                <div class="form-group">
+                    <label for="password">Nova šifra</label>
+                    <input type="password" id="password" placeholder="Unesite novu šifru">
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="2fa">
+                        Omogući Two-Factor Authentication (2FA)
+                    </label>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2 class="section-title">Notifikacije</h2>
+                
+                <div class="form-group">
+                    <label>Preferirani način komunikacije</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="communication" value="email" checked>
+                            Email
+                        </label>
+                        <label>
+                            <input type="radio" name="communication" value="sms">
+                            SMS
+                        </label>
+                        <label>
+                            <input type="radio" name="communication" value="none">
+                            None
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="frequency">Notification frequency</label>
+                    <select id="frequency">
+                        <option value="daily" selected>Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="never">Never</option>
+                    </select>
+                </div>
+            </section>
+
+            <button type="submit" class="btn-submit">Spasi promjene</button>
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisanje scenarija - ScenarijPro</title>
+
+    <!-- UVEZANI CSS -->
+    <link rel="stylesheet" href="../css/writing.css">
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="header-left">
+            <button class="btn-back">←</button>
+            <h1 class="project-title">Omanović Chronicles</h1>
+        </div>
+
+        <div class="header-center">
+            <button class="btn-element">SCENA</button>
+            <button class="btn-element">AKCIJA</button>
+            <button class="btn-element">LIK</button>
+            <button class="btn-element">DIJALOG</button>
+        </div>
+
+        <div class="header-right">
+            <button class="btn-save">Spasi</button>
+        </div>
+    </header>
+
+    <div class="module-controls">
+        <div class="controls-section">
+            <h3>Formatiranje teksta</h3>
+            <div class="btn-group">
+                <button class="btn-module btn-format" id="btnBold">Bold</button>
+                <button class="btn-module btn-format" id="btnItalic">Italic</button>
+                <button class="btn-module btn-format" id="btnUnderline">Underline</button>
+            </div>
+        </div>
+
+        <div class="controls-section">
+            <h3>Analiza scenarija</h3>
+            <div class="btn-group">
+                <button class="btn-module" id="btnBrojRijeci">Broj riječi</button>
+                <button class="btn-module" id="btnUloge">Prikaži uloge</button>
+                <button class="btn-module" id="btnPogresnaUloga">Provjeri uloge</button>
+                <button class="btn-module" id="btnBrojLinija">Broj linija uloge</button>
+                <button class="btn-module" id="btnScenarijUloge">Scenarij uloge</button>
+                <button class="btn-module" id="btnGrupisiUloge">Grupisi uloge</button>
+            </div>
+        </div>
+
+        <div class="controls-section">
+            <h3>Spirala 3 - API kontrole</h3>
+            <div class="btn-group">
+                <label style="margin-right: 10px;">User ID: <input type="number" id="inputUserId" value="1" min="1"
+                        style="width: 60px;"></label>
+                <label style="margin-right: 10px;">Scenario ID: <input type="number" id="inputScenarioId" value="1"
+                        min="1" style="width: 60px;"></label>
+                <button class="btn-module" id="btnUcitajScenarij">Učitaj scenarij</button>
+                <button class="btn-module" id="btnNoviScenarij">Novi scenarij</button>
+            </div>
+            <div class="btn-group" style="margin-top: 8px;">
+                <label style="margin-right: 10px;">Line ID: <input type="number" id="inputLineId" value="1" min="1"
+                        style="width: 60px;"></label>
+                <button class="btn-module" id="btnZakljucajLiniju" style="background: #4caf50;">🔒 Zaključaj
+                    liniju</button>
+                <button class="btn-module" id="btnSpasiLiniju" style="background: #2196f3;">💾 Spasi liniju</button>
+            </div>
+            <div class="btn-group" style="margin-top: 8px;">
+                <label style="margin-right: 10px;">Ime lika: <input type="text" id="inputImeLika" value=""
+                        placeholder="npr. NEDIM" style="width: 100px;"></label>
+                <button class="btn-module" id="btnZakljucajLika" style="background: #ff9800;">🔒 Zaključaj lika</button>
+                <button class="btn-module" id="btnPromijeniLika" style="background: #9c27b0;">✏️ Promijeni ime
+                    lika</button>
+            </div>
+            <div id="statusZakljucavanja" style="margin-top: 10px; padding: 8px; background: #333; border-radius: 4px;">
+            </div>
+        </div>
+    </div>
+
+    <div id="poruke"></div>
+
+    <div class="content-wrapper">
+        <aside class="scenes-sidebar">
+            <div class="scenes-header">
+                <h2>Scene <span class="scene-count">3</span></h2>
+            </div>
+
+            <div class="scenes-list">
+                <div class="scene-item active-scene">
+                    <div class="scene-title">1. UNUTRA. KUĆA OMANOVIĆ – NOĆ</div>
+                    <div class="scene-pages">5/8</div>
+                </div>
+
+                <div class="scene-item">
+                    <div class="scene-title">2. SPOLJA. ULICE SARAJEVA – DAN</div>
+                    <div class="scene-pages">2/8</div>
+                </div>
+
+                <div class="scene-item">
+                    <div class="scene-title">3. UNUTRA. RESTORAN OMILJENIH – VEČE</div>
+                    <div class="scene-pages">1/8</div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="editor">
+            <div class="editor-content" id="divEditor" contenteditable="true">
+
+                <p class="scene-heading">INT. KUĆA OMANOVIĆ - NIGHT</p>
+
+                <p class="action">Udobna dnevna soba ispunjena porodičnim fotografijama i toplim osvjetljenjem...</p>
+
+                <p>NEDIM</p>
+                <p>(tiho)</p>
+                <p>Ovo mora biti savršeno...</p>
+
+                <p>ILMA</p>
+                <p>Nedime, trebao bi otići na spavanje.</p>
+                <p>NEDIM</p>
+                <p>Još malo. Samo još jedna scena.</p>
+                <p>ILMA</p>
+                <p>To stalno govoriš.</p>
+                <p class="action">Odjednom, njegov telefon ZVONI. On ga pogleda, nasmiješi se, a zatim se vrati svom
+                    radu s obnovljenom energijom.</p>
+                <p class="scene-heading">EXT. ULICE SARAJEVA - DAY</p>
+                <p class="action">Užurbane ulice Sarajeva. Ljudi prolaze.</p>
+                <p>NEDIM</p>
+                <p>Sarajevo je uvijek inspiracija.</p>
+                <p>DAMIRA</p>
+                <p>Slažem se, prijatelju.</p>
+                <p>NEDIM</p>
+                <p>Kako ide tvoj projekat?</p>
+                <p>NEEIM</p>
+                <p>Odlično! Skoro završen.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/EditorTeksta.js"></script>
+    <script src="../js/PoziviAjaxFetch.js"></script>
+    <script src="../js/editor.js"></script>
+</body>
+
+</html>

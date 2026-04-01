@@ -1,0 +1,323 @@
+[
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 2,
+    "content": "NARATOR: Sunce je polako zalazilo nad starim gradom.",
+    "timestamp": 1736520000
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "ALICE: Jesi li siguran da je ključ ostao u biblioteci?",
+    "timestamp": 1736520010
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 3,
+    "nextLineId": 4,
+    "content": "BOB: To je posljednje mjesto gdje sam ga vidio prije nego što je pala noć.",
+    "timestamp": 1736520020
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 4,
+    "nextLineId": 5,
+    "content": "ALICE: Moramo požuriti prije nego što čuvar zaključa glavna vrata.",
+    "timestamp": 1736520030
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 5,
+    "nextLineId": 6,
+    "content": "BOB: Čekaj, čuješ li taj zvuk iza polica?",
+    "timestamp": 1736520040
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 6,
+    "nextLineId": null,
+    "content": "NARATOR: Iz sjene se polako pojavila nepoznata figura.",
+    "timestamp": 1736520050
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "BOB",
+    "newName": "ROBERT",
+    "timestamp": 1736520100
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 3,
+    "nextLineId": 7,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768134707
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 7,
+    "nextLineId": 8,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768134707
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 8,
+    "nextLineId": 4,
+    "content": "riječ riječ riječ riječ riječ",
+    "timestamp": 1768134707
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "ALICE",
+    "newName": "ALICIA",
+    "timestamp": 1768134707
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 3,
+    "nextLineId": 9,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768134973
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 9,
+    "nextLineId": 10,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768134973
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 10,
+    "nextLineId": 7,
+    "content": "riječ riječ riječ riječ riječ",
+    "timestamp": 1768134973
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "NARATOR",
+    "newName": "MILICA",
+    "timestamp": 1768389878
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 9,
+    "nextLineId": 10,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768389887
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "MILICA",
+    "newName": "NEDIM",
+    "timestamp": 1768390958
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "ALICIA Jesi li siguran da je ključ ostao u biblioteci",
+    "timestamp": 1768391002
+  },
+  {
+    "scenarioId": 2,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": null,
+    "content": "neda brat",
+    "timestamp": 1768391324
+  },
+  {
+    "scenarioId": 2,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": null,
+    "content": "neda brat hahahahaha",
+    "timestamp": 1768391336
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla",
+    "timestamp": 1768391450
+  },
+  {
+    "scenarioId": 2,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": null,
+    "content": "neda brat hahahahaha dsaadsasd",
+    "timestamp": 1768391476
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla neda neda",
+    "timestamp": 1768391622
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla neda neda neda brat",
+    "timestamp": 1768391643
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "NEDIM",
+    "newName": "NEDA",
+    "timestamp": 1768391675
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "NEDA",
+    "newName": "NEDUX",
+    "timestamp": 1768391838
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 2,
+    "content": "NEDUX",
+    "timestamp": 1768395668
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 6,
+    "nextLineId": null,
+    "content": "NEDUX",
+    "timestamp": 1768395716
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 6,
+    "nextLineId": null,
+    "content": "",
+    "timestamp": 1768395735
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 6,
+    "nextLineId": null,
+    "content": "NEDUX",
+    "timestamp": 1768395778
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 6,
+    "nextLineId": null,
+    "content": "",
+    "timestamp": 1768395789
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 2,
+    "content": "NEDUX",
+    "timestamp": 1768396212
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla neda neda neda brat",
+    "timestamp": 1768396246
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla neda neda neda brat",
+    "timestamp": 1768396275
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 2,
+    "nextLineId": 3,
+    "content": "bla bla bla neda neda neda brat",
+    "timestamp": 1768396299
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 11,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768396328
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 11,
+    "nextLineId": 12,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768396328
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 12,
+    "nextLineId": 2,
+    "content": "riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ riječ",
+    "timestamp": 1768396328
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 11,
+    "content": "NEDUX",
+    "timestamp": 1768396357
+  },
+  {
+    "scenarioId": 1,
+    "type": "line_update",
+    "lineId": 1,
+    "nextLineId": 11,
+    "content": "NEDIM",
+    "timestamp": 1768397715
+  },
+  {
+    "scenarioId": 1,
+    "type": "char_rename",
+    "oldName": "NEDIM",
+    "newName": "NEDIM1",
+    "timestamp": 1768397755
+  }
+]
